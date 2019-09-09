@@ -7,6 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock>Nome</TextBlock>
+        <TextBlock Grid.Row="1">Atribuição:</TextBlock>
+        <TextBlock Grid.Row="2">Salario Base:</TextBlock>
+            
+                
+                    
     </Grid>
 </Window>
